@@ -9,34 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Bashkirov_opisanie">
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/opisanie_layout" />
+
         <activity
             android:name=".sobstvennye_statyk1"
             android:exported="false" />
-
-        <meta-data
-            android:name="com.google.android.actions"
-            android:resource="@xml/background" />
-
         <activity
             android:name=".wi_fi"
             android:exported="false" />
         <activity
             android:name=".sobstvennye_statyk"
-            android:exported="false" />
-        <activity
-            android:name=".probnoe"
-            android:exported="false" />
-        <activity
-            android:name=".probnik"
-            android:exported="false" />
-        <activity
-            android:name=".wi_fi"
-            android:exported="false" />
-        <activity
-            android:name=".MainProbnik"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity3"
             android:exported="false" />
         <activity
             android:name=".MainActivity2"

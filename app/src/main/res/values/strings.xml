@@ -26,7 +26,7 @@
     <string name="obmen_enternet">Обмен Enternet (байт)</string>
     <string name="prinyato_dannyx">Принято данных</string>
     <string name="peredano_dannyx">Передано данных</string>
-    <string name="prinyato_golosa">Принято голоса</string>
+    <string name="prinyato_golosa4">Принято голоса</string>
     <string name="peredano_golosa">Передано голоса</string>
     <string name="obmen_po_wifi">Обмен по Wi-Fi (байт) v7</string>
     <string name="prinyato_dannyx1">Принято данных</string>
@@ -101,4 +101,22 @@
     <string name="top_soedineniya">Тип соединения</string>
     <string name="save_nvram">Сохранить NVRam</string>
     <string name="dns_seti1">DNS сети</string>
+    <string name="proizvoditel">Производитель</string>
+    <string name="opisanie7">Описание</string>
+    <string name="polzovatel">Пользователь</string>
+    <string name="sohranit1">Сохранить</string>
+    <string name="opisanie5">Описание</string>
+    <string name="opisanie6">Описание</string>
+    <string name="back2">TODO</string>
+    <string name="statistiks">Статистика</string>
+    <string name="update_btn">Обновить</string>
+    <string name="peredanno_dannyx">Переданно данных</string>
+    <string name="kod_restartov">Код рестартов</string>
+    <string name="peredano_golosa2">Переданно голоса</string>
+    <string name="prinyato_golosa">Принято голоса</string>
+    <string name="obmen_enthernet">Обмен Enthernet (байт)</string>
+    <string name="wi_fi_v7">Обмен по Wi-Fi (байт) v7</string>
+    <string name="peredanno_dannyx3">Переданно данных</string>
+    <string name="prinyato_golosa2">Принято голоса</string>
+    <string name="peredanno_golosa3">Переданно голоса</string>
 </resources>

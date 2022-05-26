@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/iv_back_button"
             android:layout_marginTop="30dp"
-            android:background="@xml/background"
+            android:background="@xml/style_body_firmware_updater"
             android:elevation="20dp"
             android:orientation="vertical"
             android:paddingTop="12dp">
@@ -128,7 +128,6 @@
                     tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
             </RelativeLayout>
-
 
 
             <RelativeLayout
@@ -285,16 +284,14 @@
                 android:layout_marginTop="10sp">
 
 
-                <TextView
-                    android:id="@+id/textView26"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_centerVertical="true"
-                    android:layout_marginStart="22sp"
-                    android:text="@string/polosa"
-                    android:textColor="#C4C4C4"
-                    android:textSize="12sp"
-                    tools:ignore="TextContrastCheck" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="33dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@android:color/darker_gray" />
 
             </RelativeLayout>
 
@@ -343,8 +340,6 @@
                     tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
             </RelativeLayout>
-
-
 
 
             <RelativeLayout
@@ -634,8 +629,6 @@
             </RelativeLayout>
 
 
-
-
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -644,7 +637,7 @@
                     style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                     android:layout_width="250dp"
                     android:layout_height="50dp"
-                    android:layout_centerHorizontal="true"
+                    android:layout_centerInParent="true"
                     android:layout_marginLeft="100dp"
                     android:layout_marginTop="17dp"
                     android:layout_marginRight="100dp"
@@ -654,7 +647,6 @@
                     app:cornerRadius="8sp"
                     tools:ignore="TextContrastCheck" />
             </RelativeLayout>
-
 
 
         </LinearLayout>
