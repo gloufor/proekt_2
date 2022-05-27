@@ -26,8 +26,8 @@
             android:layout_marginStart="25dp"
             android:layout_marginTop="30dp"
             android:layout_marginEnd="353dp"
-            android:src="@drawable/ic_vector"
-            android:contentDescription="@string/back_button" />
+            android:contentDescription="@string/back_button"
+            android:src="@drawable/ic_vector" />
 
         <TextView
             android:layout_width="wrap_content"

@@ -21,7 +21,7 @@
             android:name=".sobstvennye_pppoe"
             android:exported="false" />
         <activity
-            android:name=".opisanie"
+            android:name=".dhcp"
             android:exported="false" />
         <activity
             android:name=".sobstvennye_statyk"
@@ -30,7 +30,7 @@
             android:name=".wi_fi"
             android:exported="false" />
         <activity
-            android:name=".dhcp"
+            android:name=".opisanie"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
