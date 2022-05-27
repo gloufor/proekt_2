@@ -7,7 +7,6 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
-    <drawable name="EditTextStyle">opisanie1</drawable>
     <string name="app_name">bashkirov_opisanie</string>
     <string name="back1">TODO</string>
     <string name="back2">TODO</string>
@@ -16,23 +15,41 @@
     <string name="buttonobnova">Обновить</string>
     <string name="canal">Канал</string>
     <string name="clear">Очистить</string>
+    <string name="condition">Состояние</string>
     <string name="connect">Подключение</string>
     <string name="connect1">Подключение</string>
+    <string name="connect2">Подключение</string>
+    <string name="connection">Подключение</string>
     <string name="dhs_seti">DHS сети</string>
+    <string name="discover">DISCOVER</string>
     <string name="dns_adres">DNS адрес</string>
     <string name="dns_seti">DNS сети</string>
     <string name="dns_seti1">DNS сети</string>
+    <string name="dns_seti3">DNS сети</string>
+    <string name="dns_seti4">DNS сети</string>
+    <string name="dns_seti5">DNS сети</string>
     <string name="fon">TODO</string>
     <string name="ip_adres">IP-адрес</string>
     <string name="ip_adres1">IP-адрес</string>
     <string name="ip_adres2">IP-адрес</string>
     <string name="ip_adres3">IP-адрес</string>
+    <string name="ip_adres4">IP-адрес</string>
+    <string name="ip_adres_dhcp">ID-адрес DHCP</string>
     <string name="ip_adres_dhsp">IP-адрес DHSP</string>
+    <string name="ip_adress">IP-адрес</string>
+    <string name="ip_adress_dhcp">IP-адрес DHCP</string>
+    <string name="ip_dhcp">IP-адрес DHCP</string>
+    <string name="ip_dhcp1">IP-адрес DHCP</string>
+    <string name="ip_dhcp5">IP-адрес DHCP</string>
+    <string name="ip_dns2">IP-адрес DNS сети</string>
     <string name="knopka">кнопка</string>
     <string name="knopochka">Button</string>
     <string name="kod_reestrov">Коды рестартов</string>
     <string name="kod_restartov">Код рестартов</string>
+    <string name="leased">LEASED</string>
+    <string name="leased1">LEASED</string>
     <string name="login">Login</string>
+    <string name="login3">Login</string>
     <string name="mac_adres">MAC-адрес</string>
     <string name="mac_adres1">MAC-адрес</string>
     <string name="mac_adres2">MAC-адрес</string>
@@ -40,6 +57,8 @@
     <string name="maska_seti1">Маска сети</string>
     <string name="maska_seti2">Маска сети</string>
     <string name="maska_seti3">Маска сети</string>
+    <string name="maska_seti5">Маска сети</string>
+    <string name="maska_seti6">Маска сети</string>
     <string name="obmen_enternet">Обмен Enternet (байт)</string>
     <string name="obmen_enthernet">Обмен Enthernet (байт)</string>
     <string name="obmen_po_wifi">Обмен по Wi-Fi (байт) v7</string>
@@ -60,6 +79,8 @@
     <string name="parol">Пароль</string>
     <string name="password">Пароль</string>
     <string name="password1">Пароль</string>
+    <string name="password2">Пароль</string>
+    <string name="password3">Пароль</string>
     <string name="peredanno_dannyx">Переданно данных</string>
     <string name="peredanno_dannyx3">Переданно данных</string>
     <string name="peredanno_golosa3">Переданно голоса</string>
@@ -76,9 +97,14 @@
     <string name="port_dannyx">Порт данных</string>
     <string name="port_dannyx1">Порт данных</string>
     <string name="port_dannyx2">Порт данных</string>
+    <string name="port_dannyx3">Порт данных</string>
+    <string name="port_dannyx4">Порт данных</string>
+    <string name="port_zvuk">Порт звука</string>
     <string name="port_zvuka">Порт звука</string>
     <string name="port_zvuka1">Порт звука</string>
     <string name="port_zvuka2">Порт звука</string>
+    <string name="port_zvuka3">Порт звука</string>
+    <string name="port_zvuka4">Порт звука</string>
     <string name="pory_zvuka">Порт Звука</string>
     <string name="prinyato_dannyx">Принято данных</string>
     <string name="prinyato_dannyx1">Принято данных</string>
@@ -96,11 +122,14 @@
     <string name="save1">Сохранить</string>
     <string name="save2">Сохранить</string>
     <string name="save_nvram">Сохранить NVRam</string>
+    <string name="shliz_seti4">Шлюз сети</string>
     <string name="shluz_seti">Шлюз сети</string>
     <string name="shluz_seti1">Шлюз сети</string>
     <string name="shluz_seti2">Шлюз сети</string>
     <string name="shluz_seti3">Шлюз сети</string>
     <string name="shluz_seti4">Шлюз сети</string>
+    <string name="shluz_seti5">Шлюз сети</string>
+    <string name="shluz_seti6">Шлюз сети</string>
     <string name="sobstvennye">Собственные</string>
     <string name="sobstvennye1">Собственные</string>
     <string name="sohr">Сохранить</string>
@@ -110,6 +139,8 @@
     <string name="sostoyanie">Состояние</string>
     <string name="sostoyanie1">Состояние</string>
     <string name="sostoyanie2">Состояние</string>
+    <string name="sostoyanie3">Состояние</string>
+    <string name="sostoyanie5">Состояние</string>
     <string name="ssid">Имя сети (SSID)</string>
     <string name="ssid1">Имя сети (SSID)</string>
     <string name="statistics">Статистика</string>
@@ -119,22 +150,27 @@
     <string name="tip_soedineniya1">Тип соединения</string>
     <string name="top_soedineniya">Тип соединения</string>
     <string name="update">Обновить</string>
+    <string name="update1">Обновить</string>
+    <string name="update3">Обновить</string>
     <string name="update_btn">Обновить</string>
+    <string name="vector">TODO</string>
     <string name="vector1">TODO</string>
     <string name="vector2">TODO</string>
+    <string name="vector3">TODO</string>
+    <string name="vector_back">TODO</string>
     <string name="versiya">Версия</string>
     <string name="vnutrennyaya_set">Внутренняя сеть</string>
     <string name="wi_fi">Wi-Fi</string>
     <string name="wi_fi1">Wi-Fi</string>
     <string name="wi_fi_modul">Wi-Fi модуль</string>
     <string name="wi_fi_v7">Обмен по Wi-Fi (байт) v7</string>
-    <style name="Theme.Bashkirov_opisanie" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.Bashkirov_opisanie" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondary">@color/black</item>
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
