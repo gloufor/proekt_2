@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context=".MainActivity"
+    tools:context=".opisanie"
     tools:ignore="ExtraText">
 
     <RelativeLayout
@@ -25,7 +26,7 @@
             android:layout_marginStart="25dp"
             android:layout_marginTop="30dp"
             android:layout_marginEnd="353dp"
-            android:src="@drawable/vector"
+            android:src="@drawable/ic_vector"
             android:contentDescription="@string/back2" />
 
         <TextView
@@ -90,7 +91,7 @@
                     android:layout_marginStart="22sp"
                     android:background="@xml/okrugl_layout"
                     android:gravity="top"
-                    android:padding="7sp"
+                    android:padding="10sp"
                     android:textColor="#757575"
                     android:textSize="11sp"
                     tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
@@ -135,9 +136,9 @@
                     android:layout_width="235dp"
                     android:layout_height="40dp"
                     android:layout_marginStart="155sp"
-
                     android:background="@xml/okrugl_layout"
                     android:gravity="top"
+                    android:padding="8sp"
                     android:textColor="#757575"
                     android:textSize="11sp"
                     tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
@@ -167,6 +168,7 @@
                     android:layout_marginStart="155sp"
                     android:background="@xml/okrugl_layout"
                     android:gravity="top"
+                    android:padding="8sp"
                     android:textColor="#757575"
                     android:textSize="11sp"
                     tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
@@ -196,6 +198,7 @@
                     android:layout_marginStart="155sp"
                     android:background="@xml/okrugl_layout"
                     android:gravity="top"
+                    android:padding="8sp"
                     android:textColor="#757575"
                     android:textSize="11sp"
                     tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
@@ -225,6 +228,7 @@
                     android:layout_marginStart="155sp"
                     android:background="@xml/okrugl_layout"
                     android:gravity="top"
+                    android:padding="8sp"
                     android:textColor="#757575"
                     android:textSize="11sp"
                     tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
@@ -270,6 +274,7 @@
                     android:layout_marginStart="155sp"
                     android:background="@xml/okrugl_layout"
                     android:gravity="top"
+                    android:padding="8sp"
                     android:textColor="#757575"
                     android:textSize="11sp"
                     tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
@@ -299,6 +304,7 @@
                     android:layout_marginStart="155sp"
                     android:background="@xml/okrugl_layout"
                     android:gravity="top"
+                    android:padding="8sp"
                     android:textColor="#757575"
                     android:textSize="11sp"
                     tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
@@ -328,6 +334,7 @@
                     android:layout_marginStart="155sp"
                     android:background="@xml/okrugl_layout"
                     android:gravity="top"
+                    android:padding="8sp"
                     android:textColor="#757575"
                     android:textSize="11sp"
                     tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
@@ -357,6 +364,7 @@
                     android:layout_marginStart="155sp"
                     android:background="@xml/okrugl_layout"
                     android:gravity="top"
+                    android:padding="8sp"
                     android:textColor="#757575"
                     android:textSize="11sp"
                     tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
@@ -396,8 +404,7 @@
                     app:iconTint="#C4C4C4"
                     tools:ignore="TextViewEdits,TextContrastCheck" />
 
-
             </RelativeLayout>
         </LinearLayout>
     </RelativeLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

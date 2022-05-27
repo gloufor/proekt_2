@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context=".MainActivity"
+    tools:context=".opisanie"
     tools:ignore="ExtraText">
 
     <RelativeLayout
@@ -25,8 +25,8 @@
             android:layout_marginStart="25dp"
             android:layout_marginTop="30dp"
             android:layout_marginEnd="353dp"
-            android:src="@drawable/vector"
-            android:contentDescription="@string/back2" />
+            android:contentDescription="@string/back2"
+            android:src="@drawable/ic_vector" />
 
         <TextView
             android:layout_width="wrap_content"
